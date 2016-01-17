@@ -593,6 +593,32 @@ margin on the iframe, cause it breaks stuff. */
     margin-right: 8px;
 }
 
+.about-button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    height: 38px;
+    padding: 0 15px 0 10px;
+    border: transparent 1px solid;
+    color: #9EABB3;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.1);
+    transition: all ease 0.3s;
+}
+.about-button:before {
+    position: relative;
+    bottom: -2px;
+    font-size: 13px;
+    line-height: 0;
+    margin-right: 8px;
+}
+
 .subscribe-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -632,6 +658,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
+.no-cover .about-button,
 .no-cover .subscribe-button {
     background: none;
 }
@@ -641,6 +668,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay .back-button,
+.main-nav.overlay .about-button,
 .main-nav.overlay .subscribe-button {
     border-color: rgba(255,255,255,0.6);
 }
@@ -654,6 +682,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Add a border to the buttons on hover */
 .back-button:hover,
+.about-button:hover,
 .subscribe-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
@@ -694,24 +723,25 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover .main-nav.overlay .back-button,
+.no-cover .main-nav.overlay .about-button,
 .no-cover .main-nav.overlay .subscribe-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
 }
 
 /* Add subtle load-in animation for content on the home page */
-.home-template .page-title {
-    -webkit-animation: fade-in-down 0.6s;
-    animation: fade-in-down 0.6s;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-}
-.home-template .page-description {
-    -webkit-animation: fade-in-down 0.9s;
-    animation: fade-in-down 0.9s;
-    -webkit-animation-delay: 0.1s;
-    animation-delay: 0.1s;
-}
+/*.home-template .page-title {*/
+    /*-webkit-animation: fade-in-down 0.6s;*/
+    /*animation: fade-in-down 0.6s;*/
+    /*-webkit-animation-delay: 0.2s;*/
+    /*animation-delay: 0.2s;*/
+/*}*/
+/*.home-template .page-description {*/
+    /*-webkit-animation: fade-in-down 0.9s;*/
+    /*animation: fade-in-down 0.9s;*/
+    /*-webkit-animation-delay: 0.1s;*/
+    /*animation-delay: 0.1s;*/
+/*}*/
 
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
@@ -1485,7 +1515,7 @@ body:not(.post-template) .post-title {
         height: 26px;
     }
 
-    .back-button,
+    .about-button,
     .subscribe-button {
         height: 44px;
         line-height: 41px;
@@ -1494,12 +1524,14 @@ body:not(.post-template) .post-title {
         background: transparent;
     }
     .back-button:hover,
+    .about-button:hover,
     .subscribe-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
     }
 
+    .about-button,
     .back-button {
         padding: 0 15px 0 10px;
     }
@@ -1518,11 +1550,13 @@ body:not(.post-template) .post-title {
         background: none;
     }
     .no-cover .main-nav.overlay .back-button,
+    .no-cover .main-nav.overlay .about-button,
     .no-cover .main-nav.overlay .subscribe-button {
         border: none;
     }
 
     .main-nav.overlay .back-button,
+    .main-nav.overlay .about-button,
     .main-nav.overlay .subscribe-button {
         border-color: transparent;
     }

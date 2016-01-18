@@ -4,8 +4,6 @@ title: About me
 permalink: /about/
 ---
 
-***
-
 My name is Szymon Przedwojski.  
 I am a Java and JavaScript developer, currently working at Sii in Warsaw.
 
@@ -16,10 +14,15 @@ I am interested in microservices architecture, building RESTful web APIs and wri
 
 I am also a member of Warsaw Java Users Group (WJUG) and the Warsaw.js group. 
 
-### Technologies
-* *Backend*: **Java SE 8**, Spring MVC, Node.js, Express.js, SQL
+### My arsenal
+* *Backend*: **Java SE 8**, Spring MVC, Node.js, Express.js, SQL, Guidewire Gosu
 * *Frontend*: JavaScript, jQuery, HTML5/CSS3, Bootstrap
 * *Databases*: MySQL, Oracle, MongoDB, Neo4j
 * *Version control*: **Git**, SVN
 * *OS-es*: **Ubuntu Linux** (teminal), Windows
-* *Tools*: IntelliJ IDEA, Maven, Amazon AWS (EC2, Route53), Heroku, Jekyll
+* *Tools*: Maven, Ant, Tomcat, Nginx, Apache, Jira, Confluence, Rally
+* *Methodologies*: Agile (Scrum) 
+
+
+### Contact me
+<a href="mailto:szymon.przedwojski@gmail.com">szymon.przedwojski@gmail.com</a>

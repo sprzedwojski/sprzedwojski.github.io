@@ -1,19 +1,18 @@
 ---
 layout: default
 title: Home
-cover: false
 about: 'about'
 cover: /assets/images/code_background.png
 ---
 
-<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="about-button" href="{{ page.about }}">About me</a><!--icon-feed subscribe-button-->
+        <a class="about-button" href="{{ site.about_url }}">About me</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
@@ -29,7 +28,6 @@ cover: /assets/images/code_background.png
 
 
 <main id="content" class="content" role="main">
-
 
     <div class="extra-pagination inner">
         {% include pagination.html %}
@@ -58,25 +56,9 @@ cover: /assets/images/code_background.png
         </footer>
     </article>
 
-    <!-- Capser below -->
-<!--     <article class="{{post_class}}">
-    <header class="post-header">
-        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
-        {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-    </footer>
-    </article>-->
-    <!--  -->
-
     {% endfor %}
 
     {% include pagination.html %}
 
+    {% include social.html %}
 </main>

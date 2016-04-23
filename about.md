@@ -5,14 +5,14 @@ permalink: /about/
 ---
 
 My name is Szymon Przedwojski.  
-I am a Java and JavaScript developer, currently working at Sii in Warsaw.
+I am a Java and JavaScript developer, currently working at BMS in Warsaw.
 
 
-My main area of interest is Web Development, especially backend development in Spring and Node.js.  
+My main area of interest is Web Development, especially backend development in Java EE and Spring.  
 I am interested in microservices architecture, building RESTful web APIs and writing clean, readable and maintainable code.
 
 
-I am also a member of Warsaw Java Users Group (WJUG) and the Warsaw.js group. 
+I am also a member of Warsaw Java Users Group (WJUG). 
 
 ### My arsenal
 * *Backend*: **Java SE 8**, Spring MVC, Node.js, Express.js, SQL, Guidewire Gosu

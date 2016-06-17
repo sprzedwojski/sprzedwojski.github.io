@@ -3,7 +3,7 @@ description: Random thoughts on software development
 meta_description: "Szymon Przedwojski, My random thoughts on software development"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /

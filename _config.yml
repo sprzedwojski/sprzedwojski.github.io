@@ -2,13 +2,14 @@ name: Szymon Przedwojski
 description: Random thoughts on software development
 meta_description: "Szymon Przedwojski, My random thoughts on software development"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://przedwojski.com'
 google_analytics: 'UA-72598800-1'
+gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'http://przedwojski.com'

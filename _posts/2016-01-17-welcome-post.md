@@ -4,7 +4,7 @@ title:  "Welcome traveller"
 date:   2016-01-17 15:16:00
 ---
 
-Welcome to my blog.  
+Welcome to my blog.
 I have set it up to share my thoughts about software development with the world.
 
 

@@ -2,7 +2,7 @@ name: Szymon Przedwojski
 description: Random thoughts on software development
 meta_description: "Szymon Przedwojski, My random thoughts on software development"
 
-markdown: kramdown
+markdown: redcarpet
 highlighter: rouge
 logo: false
 paginate: 15

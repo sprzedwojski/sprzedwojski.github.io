@@ -33,19 +33,20 @@ post_class: post-template
                     <img src="{{site.logo}}" alt="{{ site.name }}" />
                 {% else %}
                     <span class="blog-title">{{ site.name }}</span>
-                {%endif%} 
+                {%endif%}
             </a>
         </header> -->
         
-        <!-- <span class="post-meta">
+<!--         <span class="post-meta">
             <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
             {% if page.categories.size > 0 %} 
                 {{ page.categories | array_to_sentence_string | prepend: 'on ' }} 
             {% endif %}
         </span> -->
 
-        <!-- <h1 class="post-title">{{ page.title }}</h1> -->
+         <!--<h1 class="post-title">{{ page.title }}</h1>-->
 
+        <br>
         <section class="post-content">
             {{content}}
         </section>

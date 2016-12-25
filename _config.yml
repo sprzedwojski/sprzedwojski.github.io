@@ -1,6 +1,6 @@
 name: Szymon Przedwojski
-description: Random thoughts on software development
-meta_description: "Szymon Przedwojski, My random thoughts on software development"
+description: My thoughts on software development
+meta_description: "Szymon Przedwojski, My thoughts on software development"
 
 markdown: redcarpet
 highlighter: rouge
@@ -15,10 +15,10 @@ gems: [jekyll-paginate]
 url:            'http://przedwojski.com'
 author:         'Szymon Przedwojski'
 
-author_description: "I code in Java and JavaScript."
+author_description: "I'm a software developer and a problem solver."
 
 about_url: /about
 
-github: 'szym1000'
+github: 'sprzedwojski'
 twitter: 'sprzedwojski'
 linkedin: 'szymon-przedwojski-99534862'

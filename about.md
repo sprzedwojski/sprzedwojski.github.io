@@ -19,9 +19,9 @@ I attend hackathons (Let's Code 2013 and 2015, HackWaw 2016), conferences (Mobil
 
 ### Technologies
 * *Backend*: **Java 8**, Groovy, Scala, SQL, Spring (MVC, Boot), JEE, Hibernate, Struts  
-* *Frontend*: JavaScript, jQuery, AngularJS, HTML5/CSS3, Bootstrap
+* *Frontend*: JavaScript, jQuery, ReactJS, HTML5/CSS3, Bootstrap
 * *Databases*: **Oracle**, MySQL, MongoDB, Neo4j
-* *Unit testing*: Spock, JUnit
+* *Testing*: Spock, JUnit, Selenium
 * *Version control*: **Git**, SVN
 * *OS-es*: **Linux**, Windows
 * *Tools*: Maven, Ant, Tomcat, WebSphere, JBoss, Nginx, Apache, Jira, Confluence, Rally, Gerrit, GitHub

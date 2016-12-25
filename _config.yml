@@ -2,7 +2,6 @@ name: Szymon Przedwojski
 description: My thoughts on software development
 meta_description: "Szymon Przedwojski, My thoughts on software development"
 
-markdown: redcarpet
 highlighter: rouge
 logo: false
 paginate: 15

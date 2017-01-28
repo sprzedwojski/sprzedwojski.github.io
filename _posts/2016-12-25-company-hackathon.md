@@ -2,7 +2,7 @@
 layout: post
 title:  "How we held a company hackathon that was awesome"
 date:   2016-12-25 00:00:00
-cover:	/assets/images/hackathon2_small.jpg
+cover:	/assets/images/hackathon_main.jpg
 disqus: true
 ---
 

@@ -549,6 +549,10 @@ margin on the iframe, cause it breaks stuff. */
     display: none
 }
 
+.no-after.main-header:after {
+    display: none
+}
+
 /* Appears in the top right corner of your home page */
 .blog-logo {
     display: block;

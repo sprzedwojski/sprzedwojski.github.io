@@ -4,14 +4,14 @@ post_class: post-template page-template
 ---
 
 <nav class="main-nav clearfix">
-    <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
-    <!--<a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>-->
+    <a class="back-button icon-arrow-left" href="{{ site.url }}">Home</a>
+    <!--<a class="subscribe-button icon-feed" href="{{ site.url }}rss.xml">Subscribe</a>-->
 </nav>
 
 <footer class="post-footer" style="margin: 0">
     {% if site.author %}
     <figure class="author-image">
-        <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.jpg)">
+        <a class="img" href="{{ site.url }}" style="background-image: url(/assets/images/profile.jpg)">
             <span class="hidden">{{site.author}}'s Picture</span></a>
     </figure>
     {% endif %}
@@ -20,7 +20,7 @@ post_class: post-template page-template
 <main class="content" role="main">
     <article class="post">
         <!--<header class="post-header">-->
-            <!--<a id="blog-logo" href="{{site.baseurl}}">-->
+            <!--<a id="blog-logo" href="{{site.url}}">-->
                 <!--{% if site.logo %}-->
                 <!--<img src="{{site.logo}}" alt="{{ site.name }}"/>-->
                 <!--{% else %}-->

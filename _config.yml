@@ -5,13 +5,12 @@ meta_description: "Szymon Przedwojski, My thoughts on software development"
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: ""
 domain_name: 'http://przedwojski.com'
 google_analytics: 'UA-72598800-1'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'http://przedwojski.com'
+prod_url:       'http://przedwojski.com'
 author:         'Szymon Przedwojski'
 
 author_description: "I'm a software developer and a problem solver."

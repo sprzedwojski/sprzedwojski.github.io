@@ -14,17 +14,16 @@ I am interested in microservices architecture, building RESTful web APIs as well
 I am a strong advocate of writing clean, readable, testable and maintainable code.
 
 
-I am an active member of the community:   
-I attend hackathons (Let's Code 2013 and 2015, HackWaw 2016), conferences (Mobilization 2012 and 2015, Geecon 2016) and I also participate in Warsaw Java Users Group (WJUG) meetings. 
+I am an active member of the community. I regularly participate in Warsaw Java Users Group (WJUG) and WarsawJS meetups, and you can also meet me at hackathons and conferences.
 
 ### Technologies
-* *Backend*: **Java 8**, Groovy, Scala, SQL, Spring (MVC, Boot), JEE, Hibernate, Struts  
-* *Frontend*: JavaScript, jQuery, ReactJS, HTML5/CSS3, Bootstrap
-* *Databases*: **Oracle**, MySQL, MongoDB, Neo4j
+* *Backend*: **Java 8**, Groovy, Spring, Hibernate
+* *Frontend*: **JavaScript**, **ReactJS**, HTML5/CSS3, Bootstrap
+* *Databases*: SQL, **Oracle**, MySQL, MongoDB, Neo4j
 * *Testing*: Spock, JUnit, Selenium
 * *Version control*: **Git**, SVN
 * *OS-es*: **Linux**, Windows
-* *Tools*: Maven, Ant, Tomcat, WebSphere, JBoss, Nginx, Apache, Jira, Confluence, Rally, Gerrit, GitHub
+* *Tools*: Maven, Gradle, WebSphere, Nginx, Jira, Gerrit
 * *Methodologies*: Agile (Scrum), Unit Testing (TDD), Code Review, Pair Programming
 
 

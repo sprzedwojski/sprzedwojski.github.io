@@ -6,30 +6,33 @@ cover:	/assets/images/pair_programming.jpg
 disqus: true
 ---
 
-Pair programming is when 2 programmers cooperate to bang out code using a single computer. In this post I'm sharing my thoughts about the pros and cons of this approach.
+Pair programming is the activity of two programmers cooperating to write code using a single computer. In this post I'm sharing my thoughts about the pros and cons of this approach.
 
 The technique originates from the practices of Extreme Programming (XP) defined by Kent Beck in his book [Extreme Programming Explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/ref=dp_ob_title_bk){:target="_blank"} over 15 years ago.
 
 ### The rules
 
-Usually one participant assumes the role of "the driver" - using the keyboard to write code - while the other is "the navigator" - observing the process and making sure the driver doesn't "drift off" and sticks to what is most important (think: "Oh, I guess I should now refactor this method... What does it do right there? I guess we should change that too..." - the navigator is there to say: "No! Let's stick to the main task - the rest is irrelevant for now.").
+Usually one developer assumes the role of "driver" and uses the keyboard to write code, just as in solo programming. The other becomes the "navigator" - observing the process and making sure the driver doesn't "drift off" and sticks to the gist of the task at hand (think: "Oh, I guess I should now refactor this method... What does it do right there? I guess we should change that too..." - the navigator is there to say: "No! Let's stick to the main task - the rest is irrelevant for now.").
 
-These roles should be changed every now and then - some propose fixed time intervals, i.e. change every 10 minutes, others, such as TDD advocates, suggest that switching should happen according to the "red-green-refactor" cycle (e.g. one person writes a failing test and the other one fixes it by writing the appropriate code).
+These roles should be changed every now and then - some propose fixed time intervals, i.e. every 10 minutes, others, such as TDD advocates, suggest that switching should happen according to the "red-green-refactor" cycle (e.g. one person writes a failing test and the other one fixes it by writing the appropriate code).
 
-Changing roles is important for preserving focus on the task. Our attention span is quite short and thus a person staying inactive for too long could lose their focus.
+Changing roles is important for keeping focus on the task. Our attention span is quite short and so a person staying inactive for too long could lose their focus.
 
 <!-- But sometimes in practice it looks like: 1 dev is thinking and coding, and the other is watching him, discussing with him and giving suggestions -- after some time they switch. -->
 
 ### The setup
 The ideal hardware setup for pair programming is as follows:
 
-- big desk, so that two people can comfortably sit at it,
+- a big desk - so that two people can comfortably sit at it,
 - one computer,
-- two keyboards and mice - it is impractical to pass them to each other during each role chane - it's better to have two sets,
-- two monitors with mirrored screens - it is much easier to look right in front of you than to look somewhere to the side on the common monitor.
+- two keyboards and mice - it's impractical to pass them to each other when switching roles - it's better to have two sets,
+- two monitors with mirrored screen - it's much easier to look right in front of you than to look to the side on a single, common monitor.
 
 ### Pros
-- Less time wasted (e.g. social media, reddit, youtube, foosball, staring out of the window)
+Pair programming brings several improvements to solo programming:
+
+<!-- - Less time wasted (e.g. social media, reddit, youtube, foosball, staring out of the window) -->
+- Less time wasted - nowadays there are so many distractions that it's easy to waste your time at work. All the social media, news sites, notifications are time-eaters. When pair programming, though, you cannot make a pause and check Facebook in the middle of a task, because your partner is right next to you! This gives you a great shield against time wasters.
 - Working in a pair is more motivating (you want to 'impress' the other person, or at least not look dumb, so you try to be more sharp and focused)
 - When one person gets tired, the other one can pick up the pace, allowing them to rest - but in the meantime there is still progress in the task!
 - "Two heads are better than one" -- mistakes are more easily spotted

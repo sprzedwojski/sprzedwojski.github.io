@@ -4,6 +4,7 @@ title:  "I created a programming joke that went viral... and found out about it 
 date:   2017-01-28 00:00:00
 cover:  /assets/images/reddit.png
 disqus: true
+permalink: /2017/01/28/programming-joke.html
 ---
 
 Around 4 years ago I came up with a programming joke. 

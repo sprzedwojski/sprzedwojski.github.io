@@ -4,6 +4,7 @@ title:  "Don't settle in your first job"
 date:   2017-03-18 00:00:00
 cover:	/assets/images/first-job/office.jpg
 disqus: true
+permalink: /2017/03/18/dont-settle-in-your-first-job.html
 ---
 
 Today I wanted to share my thoughts and experiences about why it is important not to work in one place for too long, especially at the beginning of your career as a software developer.

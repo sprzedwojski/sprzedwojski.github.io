@@ -8,6 +8,7 @@ paginate: 15
 domain_name: 'http://przedwojski.com'
 google_analytics: 'UA-72598800-1'
 gems: [jekyll-paginate]
+permalink: pretty
 
 # Details for the RSS feed generator
 prod_url:       'http://przedwojski.com'

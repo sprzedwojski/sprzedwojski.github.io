@@ -4,6 +4,7 @@ title:  "How we held a company hackathon that was awesome"
 date:   2016-12-25 00:00:00
 cover:	/assets/images/hackathon_main.jpg
 disqus: true
+permalink: /2016/12/25/company-hackathon.html
 ---
 
 Recently we organized a company hackathon at my workplace. Being one of the organizers and a participant I wanted to share my experiences.

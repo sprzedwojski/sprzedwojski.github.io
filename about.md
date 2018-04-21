@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Hi, I'm Szymon Przedwojski.  
-I am a Java and JavaScript developer, currently working at BMS in Warsaw.
+I am a Java and JavaScript developer, currently working at Polidea in Warsaw.
 
 
 My main area of interest is Web Development, especially backend development in Java EE and Spring, but I also like to dip my fingers in some frontend code from time to time.  

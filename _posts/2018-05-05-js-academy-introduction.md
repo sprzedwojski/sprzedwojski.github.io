@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JS Academy #0: Introduction"
-date:   2018-04-21 00:00:00
+date:   2018-05-05 00:00:00
 cover:	/assets/images/js-academy/mbp-coffee.jpg
 disqus: true
 categories: javascript

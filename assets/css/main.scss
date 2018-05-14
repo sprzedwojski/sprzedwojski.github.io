@@ -16,3 +16,21 @@
 @import
     "custom"
 ;
+
+.js-academy-box {
+	font-family: 'Courier New', Courier, monospace;
+	border: 1px solid rgba(0,0,0,0.23);
+	padding: 20px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background: rgba(0,0,0,0.05);
+	margin-bottom: 1.75em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.1em;
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+}

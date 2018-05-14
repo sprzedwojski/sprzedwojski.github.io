@@ -12,6 +12,8 @@ permalink: /:year/:month/:day/:title/
 Hi there, folks! I've recently decided to dive deeper into the intricacies of how JavaScript actually works. 
 I had been using it for many years, learning "as I went", without really understanding what was going on under the hood.
 
+{% include js-academy-box.html %}
+
 It worked fine, sure, but sometimes there were strange bugs in my code, `this` binding was always a "Russian roulette",
 magic terms like "closure", "hoisting", "callback queue" or "event loop" didn't ring a bell, and so on and so forth.
 I mostly managed to copy-paste from StackOverflow and get it working, but the cause of the problem, and usually the 

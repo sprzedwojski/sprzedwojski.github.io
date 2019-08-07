@@ -15,6 +15,8 @@ I am interested in microservices architecture, building RESTful web APIs as well
 I am a strong advocate of writing clean, readable, testable and maintainable code.
 
 ### Talks
+* [Migrating Apache Oozie Workflows to Apache Airflow [EN]](https://youtu.be/8L1F-6t_6Ao?t=1)
+* [Manageable data pipelines with Airflow and Kubernetes [EN]](https://youtu.be/bcF24AdG1o4)
 * [PyWaw #80 - Manageable data pipelines with Airflow and Kubernetes [PL]](https://youtu.be/IcEZitv9WKU)
 * [Szymon Przedwojski: Firebase, czyli backend szybko, łatwo i przyjemnie [PL] - WarsawJS Meetup #47](https://youtu.be/vHb1eh7l0Os)
 * [Wprowadzenie do biblioteki React + live coding [PL]](https://youtu.be/SFSUTKlyW88)
